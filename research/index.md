@@ -3,12 +3,20 @@ layout: default
 title: hello
 permalink: /research/
 ---
+**Narrowing the Knowledge Evaluation Gap: Open-Domain Question Answering with Multi-Granularity Answers‏**  
+Gal Yona, Roee Aharoni and Mor Geva \\
+[[paper]](https://arxiv.org/abs/2401.04695){:target="_blank"}
+
+
+**Surfacing Biases in Large Language Models using Contrastive Input Decoding‏**  
+Gal Yona, Or Honovich, Itay Laish and Roee Aharoni‏
+n \\
+[[paper]](https://arxiv.org/pdf/2305.07378){:target="_blank"}
 
 **Malign Overfitting: Interpolation Can Provably Preclude Invariance**  
 Yoav Wald, Gal Yona, Uri Shalit and Yair Carmon \\
 *International Conference on Learning Representations (ICLR) 2023* \\
 [[paper]](https://arxiv.org/abs/2211.15724){:target="_blank"}
-
 
 
 **Decision-Making under Miscalibration**  
