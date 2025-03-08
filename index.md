@@ -5,9 +5,7 @@ title: "Gal Yona"
 
 ### About
 
-I am a Research Scientist at [Google Research Tel Aviv](https://research.google/locations/israel/){:target="_blank"}, where I work on making large language models more robust, factual and trustworthy.
-
-Before Google, I completed a PhD in Computer Science at the [Weizmann Institute of Science](https://weizmann.ac.il){:target="_blank"}, under the supervision of [Guy Rothblum](https://guyrothblum.wordpress.com/){:target="_blank"}, where I focused on formalizing fairness & non-discrimination in machine learning algorithms.
+Hi! My name is Gal Yona. I am currently a Research Scientist at [Google Research Tel Aviv](https://research.google/locations/israel/){:target="_blank"}, where I work on making large language models more robust, factual and trustworthy. Before Google, I completed a PhD in Computer Science at the [Weizmann Institute of Science](https://weizmann.ac.il){:target="_blank"}, under the supervision of [Guy Rothblum](https://guyrothblum.wordpress.com/){:target="_blank"}, where I focused on formalizing fairness & non-discrimination in machine learning algorithms.
 
 
 ### Contact
@@ -19,7 +17,7 @@ You can contact me at: gal.yona at gmail.com
 
 **Narrowing the Knowledge Evaluation Gap: Open-Domain Question Answering with Multi-Granularity Answers‏**  
 Gal Yona, Roee Aharoni and Mor Geva \\
-*preprint* \\
+*Association for Computational Linguistics (ACL) 2024* \\
 [[paper]](https://arxiv.org/abs/2401.04695){:target="_blank"}
 
 
