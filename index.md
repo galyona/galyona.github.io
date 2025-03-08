@@ -15,6 +15,11 @@ You can contact me at: gal.yona at gmail.com
 
 *For an up to date list, check out my [Google Scholar](https://scholar.google.com/citations?user=d4Jg1msAAAAJ&hl=en){:target="_blank"}.*
 
+**Does Fine-Tuning LLMs on New Knowledge Encourage Hallucinations?‏‏**  
+Zorik Gekhman, Gal Yona, Roee Aharoni, Matan Eyal, Amir Feder, Roi Reichart and Jonathan Herzig \\
+*Conference on Empirical Methods in Natural Language Processing (EMNLP) 2024*
+[[paper]](https://arxiv.org/abs/2405.05904){:target="_blank"}
+
 **Narrowing the Knowledge Evaluation Gap: Open-Domain Question Answering with Multi-Granularity Answers‏**  
 Gal Yona, Roee Aharoni and Mor Geva \\
 *Association for Computational Linguistics (ACL) 2024* \\
