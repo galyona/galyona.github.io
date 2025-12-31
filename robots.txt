@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://galyona.github.io/sitemap.xml

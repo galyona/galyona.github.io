@@ -1,0 +1,297 @@
+/* Tufte-inspired minimal CSS */
+
+:root {
+  --text-color: #111;
+  --link-color: #a00;
+  --link-hover: #c00;
+  --muted: #555;
+  --border: #ddd;
+  --bg: #fffff8;
+  --max-width: 800px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Palatino, 'Palatino Linotype', Georgia, serif;
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--text-color);
+  background: var(--bg);
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 2rem 2rem 4rem;
+}
+
+/* Typography */
+h1 {
+  font-size: 2.2rem;
+  font-weight: 400;
+  margin: 0 0 0.5rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  font-style: italic;
+  margin: 0 0 1rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.5rem;
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  margin: 0 0 1rem;
+}
+
+/* Header / Bio */
+.bio {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.bio-text h1 {
+  margin-bottom: 1rem;
+}
+
+.contact {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+/* Two-column layout */
+.columns {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 4rem;
+}
+
+.right-column {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Publications */
+.publications .scholar-link {
+  font-style: italic;
+  color: var(--muted);
+  font-size: 0.95rem;
+  margin-bottom: 1.5rem;
+}
+
+.pub-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pub-list li {
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+}
+
+.pub-title {
+  font-weight: 600;
+}
+
+.pub-authors {
+  font-size: 0.95rem;
+}
+
+.pub-venue {
+  font-style: italic;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.pub-links {
+  font-size: 0.9rem;
+  margin-top: 0.25rem;
+}
+
+.pub-links a {
+  margin-right: 0.75rem;
+}
+
+/* Blog links */
+.blog-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.blog-links li {
+  margin-bottom: 1.25rem;
+}
+
+.blog-links a {
+  display: block;
+  font-size: 1.05rem;
+}
+
+.blog-links time {
+  display: block;
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin-top: 0.2rem;
+}
+
+.view-all {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+}
+
+/* Talks */
+.talks {
+  margin-top: 2.5rem;
+}
+
+.talks ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.talks li {
+  margin-bottom: 0.75rem;
+}
+
+.talks p {
+  font-size: 0.9rem;
+  margin-bottom: 0.75rem;
+}
+
+/* Blog index page */
+.blog-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.blog-list li {
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.blog-list li:last-child {
+  border-bottom: none;
+}
+
+.blog-list h3 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 0 0 0.25rem;
+}
+
+.blog-list h3 a {
+  color: var(--text-color);
+}
+
+.blog-list h3 a:hover {
+  color: var(--link-color);
+}
+
+.blog-list time {
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.blog-list .excerpt {
+  margin-top: 0.75rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  body {
+    padding: 1.5rem;
+    font-size: 17px;
+  }
+
+  .bio {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .columns {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+}
+
+/* Blog post pages */
+article {
+  max-width: 650px;
+}
+
+article header {
+  margin-bottom: 2rem;
+}
+
+article h1 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+article time {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+article img {
+  max-width: 100%;
+  height: auto;
+  margin: 1.5rem 0;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 2rem;
+  font-size: 0.95rem;
+}
+
+blockquote {
+  border-left: 3px solid var(--border);
+  margin: 1.5rem 0;
+  padding-left: 1.5rem;
+  font-style: italic;
+  color: var(--muted);
+}
+
+code {
+  font-family: Menlo, Monaco, 'Courier New', monospace;
+  font-size: 0.9em;
+  background: #f4f4f4;
+  padding: 0.15em 0.3em;
+  border-radius: 3px;
+}
