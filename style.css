@@ -58,7 +58,7 @@ p {
 .bio {
   display: flex;
   gap: 2rem;
-  align-items: flex-start;
+  align-items: center;
   margin-bottom: 3rem;
   padding-bottom: 2rem;
   border-bottom: 1px solid var(--border);
