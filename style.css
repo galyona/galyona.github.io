@@ -288,6 +288,12 @@ blockquote {
   color: var(--muted);
 }
 
+hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 2.5rem 0;
+}
+
 code {
   font-family: Menlo, Monaco, 'Courier New', monospace;
   font-size: 0.9em;
